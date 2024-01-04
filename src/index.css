@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+
+}
+
+form input{
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
