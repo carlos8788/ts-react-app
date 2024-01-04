@@ -40,6 +40,6 @@ const formReducer = (state: FormState["inputValues"], action: FormReducerAction)
     }
 }
 
-const useNewForm = () => {
+export const useNewForm = () => {
     return useReducer(formReducer, INITIAL_STATE)
 }

@@ -2,31 +2,31 @@
     "subs": [
         {
             "nick": "nfoyston0",
-            "avatar": "https://robohash.org/debitisquaeerror.png?size=50x50&set=set1",
+            "urlImage": "https://robohash.org/debitisquaeerror.png?size=50x50&set=set1",
             "description": "Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
             "subMonths": 6
         },
         {
             "nick": "tkinge1",
-            "avatar": "https://robohash.org/eosistevoluptatibus.png?size=50x50&set=set1",
+            "urlImage": "https://robohash.org/eosistevoluptatibus.png?size=50x50&set=set1",
             "description": "Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
             "subMonths": 11
         },
         {
             "nick": "fcoultar2",
-            "avatar": "https://robohash.org/autemdolorofficia.png?size=50x50&set=set1",
+            "urlImage": "https://robohash.org/autemdolorofficia.png?size=50x50&set=set1",
             "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
             "subMonths": 13
         },
         {
             "nick": "ccroysdale3",
-            "avatar": "https://robohash.org/laboresaepeex.png?size=50x50&set=set1",
+            "urlImage": "https://robohash.org/laboresaepeex.png?size=50x50&set=set1",
             "description": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.",
             "subMonths": 3
         },
         {
             "nick": "csturch4",
-            "avatar": "https://robohash.org/asperioresarchitectoomnis.png?size=50x50&set=set1",
+            "urlImage": "https://robohash.org/asperioresarchitectoomnis.png?size=50x50&set=set1",
             "description": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.",
             "subMonths": 9
         }

@@ -4,7 +4,11 @@ export interface Sub {
     subMonths: number;
     avatar: string;
     description?: string;
-  }
-  
-  // Otros tipos e interfaces pueden ir aquí
-  
+}
+
+export type SubsResponseFromApi = Array<{
+    nick: string;
+    subMonths: number;
+    urlImage: string;
+    description?: string;
+}>

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { getUsers } from './api'
 import List from './components/List'
 import { Form } from './components/Form'
-import { Sub } from './types'
+import { Sub, SubsResponseFromApi } from './types'
 
 
 function App() {
@@ -10,14 +10,35 @@ function App() {
 
   useEffect(() => {
     getUsers()
-      .then(users => users.json())
       .then(data => {
-        setSubs(data)
-
+        const subsFromApi = mapFromApiToSubs(data)
+        setSubs(subsFromApi)
       })
+
+    // Esto es equivalente a lo que hicimos arriba
+    // getUsers()
+    //   .then(mapFromApiToSubs)
+    //   .then(setSubs)
   }
     , [])
 
+  const mapFromApiToSubs = (apiResponse: SubsResponseFromApi): Sub[] => {
+    return apiResponse.map(subFromApi => {
+      const {
+        subMonths,
+        urlImage: avatar,
+        nick,
+        description
+      } = subFromApi
+
+      return {
+        nick,
+        description,
+        avatar,
+        subMonths
+      }
+    })
+  }
   const handleNewSub = (newSub: Sub) => {
     setSubs(subs => [...subs, newSub])
   }
